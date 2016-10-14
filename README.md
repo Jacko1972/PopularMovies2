@@ -20,4 +20,4 @@ If you want to download into Android Studio and run this App you will need an AP
 
 * [Error Icon by Elegant Themes](http://www.flaticon.com/authors/elegant-themes) [From] (http://www.flaticon.com) [Licensed Creative Commons BY 3.0] (http://creativecommons.org/licenses/by/3.0/)
 * App Icon from http://www.iconarchive.com/show/button-ui-system-folders-drives-icons-by-blackvariant/Movies-icon.html
-* CursorRecyclerViewAdapter
+* [CursorRecyclerViewAdapter] (https://gist.github.com/skyfishjy/443b7448f59be978bc59)
