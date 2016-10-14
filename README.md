@@ -3,6 +3,9 @@ Popular Movies 2 is an app that has been generated as part of the [Udacity Nanod
 
 If you want to download into Android Studio and run this App you will need an API key from [The Movie Database](https://www.themoviedb.org/documentation/api)
 
+## Story So Far
+This is my second attempt at the App, the first version did not pass review, various reasons, screen not restoring after rotation, fixed this by using Loaders, database calls on UI thread, fixed this by using [AsyncQueryHandlers] (https://developer.android.com/reference/android/content/AsyncQueryHandler.html) and crashed after the user rapidly pressed a movie image 10 times, got round this by storing the context in a variable in the [onAttach] (https://developer.android.com/reference/android/app/Fragment.html#onAttach(android.app.Activity) method.
+
 ## Screens
 
 ![screen](../master/app/screenshots/phone1.jpg)
