@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_height">240dp</dimen>
+    <integer name="movie_image_column_count">3</integer>
+
+    <dimen name="card_view_height">285dp</dimen>
+</resources>

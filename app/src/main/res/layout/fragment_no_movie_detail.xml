@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/no_movie_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="@dimen/detail_text_view_spacing"/>
+
+    <TextView
+        android:text="@string/no_movie_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="14sp"
+        android:padding="@dimen/detail_text_view_spacing"/>
+
+    <TextView
+        android:text="@string/movie_information_is_collected_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:padding="@dimen/detail_text_view_spacing"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/themoviedb"
+        android:contentDescription="@string/movie_db_image"
+        android:id="@+id/imageView"/>
+</LinearLayout>

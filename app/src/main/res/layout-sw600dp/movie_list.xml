@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:divider="?android:listDivider"
+    android:showDividers="middle"
+    tools:context="com.jacko1972.popularmovies2.MainActivity">
+
+    <com.jacko1972.popularmovies2.util.RecyclerViewWithEmptyView
+        android:id="@+id/movie_list"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:context="com.jacko1972.popularmovies2.MainActivity"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/empty_movie_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/error_image"
+            android:src="@drawable/error_triangle"/>
+        <TextView
+            style="?android:attr/textAppearanceMedium"
+            android:layout_height="wrap_content"
+            android:text="@string/no_movie_recycler_view_text"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/movie_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Popular Movies 2</string>
+    <string name="title_activity_movie_detail">Movie Detail Activity</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="synopsis">Synopsis:</string>
+    <string name="release_date">Release Date:</string>
+    <string name="user_rating">User Rating:</string>
+    <string name="vote_count">Vote Count:</string>
+    <string name="trailers">Trailers:</string>
+    <string name="author">Author:</string>
+    <string name="reviews">Reviews:</string>
+
+    <string name="movie_image">Movie Image</string>
+    <string name="star_image">Star Image</string>
+    <string name="out_of_10">/10</string>
+
+    <string name="no_movie_recycler_view_text">No Movies to Display…</string>
+    <string name="no_trailers">No Trailers to Display…</string>
+    <string name="no_reviews">No Reviews to Display…</string>
+
+    <string name="no_movie_alert">"There are no Movies available to display, "</string>
+    <string name="alert_open_settings">click Settings below and change to either Popular, Top Rated or your stored Favourites.</string>
+    <string name="alert_no_internet">Please check your Internet connection and try again.</string>
+
+    <string-array name="pref_list_type_titles">
+        <item>Popular</item>
+        <item>Top Rated</item>
+        <item>Favourites</item>
+    </string-array>
+    <string-array name="pref_list_type_values">
+        <item>popular</item>
+        <item>top_rated</item>
+        <item>favorite</item>
+    </string-array>
+
+    <string name="prefs_movie_list">prefs_movie_list</string>
+    <string name="choose_list_type">Choose List Type</string>
+    <string name="prefs_movie_list_default_value">popular</string>
+    <string name="sync_account_type">popularmovies2.jacko1972.com</string>
+    <string name="content_authority">com.jacko1972.popularmovies2</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_detail_tag">FRAGMENT_DETAIL</string>
+    <string name="poster_image">Poster Image</string>
+    <string name="share">Share</string>
+    <string name="no_movie_selected">No Movie Selected</string>
+    <string name="no_movie_text">Click a movie from the grid of Movie Images on the left of the screen to show information about the movie. Details will include movie synopsis, release date, user rating and vote count, along with trailers which can be clicked for you to watch them. Reviews are also included and can be clicked to open in a browser to view the full review. Finally you can choose to store the Movies as a Favourite by clicking the heart icon bottom left of the Detail screen, the information will be stored and can be viewed offline.</string>
+    <string name="movie_information_is_collected_from">Movie information is collected from:</string>
+    <string name="error_image">Error Image</string>
+    <string name="movie_db_image">Movie DB Image</string>
+
+</resources>
