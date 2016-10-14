@@ -1,4 +1,7 @@
 # Popular Movies 2
+
+Stage 2: 14 Oct 16
+
 Popular Movies 2 is an app that has been generated as part of the [Udacity Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801?v=ad1). Following the guides this App connects to TheMovieDB.org and downloads popular and top rated movies; the app displays posters, images, release date etc. When online the app will allow you to view the displayed trailers or movie reviews, using apps outside of this one.
 
 If you want to download into Android Studio and run this App you will need an API key from [The Movie Database](https://www.themoviedb.org/documentation/api)
